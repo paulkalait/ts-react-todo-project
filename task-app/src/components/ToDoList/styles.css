@@ -1,0 +1,38 @@
+.container{ 
+    display: flex;
+    width: 95%;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.todos__heading{ 
+    font-size: 30px;
+}
+.todos{ 
+    display: flex;
+    padding: 10px;
+    width: 47.5%;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+
+.remove{ 
+    background-color: rgba(49, 195, 49, 0.3);
+}
+@media (max-width: 1200px){ 
+    .todos{ 
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .todos{ 
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    .container{ 
+        width: 95%;
+        flex-direction: column;
+    }
+}
